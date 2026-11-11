@@ -1,0 +1,649 @@
+{
+  "name": "CRA Standards Progress: the ETSI EN 304 vertical series under standardisation request M/606",
+  "description": "Per-deliverable status of the ETSI EN 304 6xx vertical Cyber Resilience Act standards, mapped to every Annex III and Annex IV point, with the ETSI work item reference, the work programme status, the approval-procedure date, the permanent published PDF and the public draft repository. Records the Official Journal citation state for each deliverable, which is what decides presumption of conformity under Article 27.",
+  "url": "https://cvdportal.com/research/cra-standards-progress",
+  "publisher": "CVD Portal, Porta Regulus B.V.",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "lastVerified": "2026-09-01",
+  "citation": "CVD Portal, \"CRA Standards Progress: the ETSI EN 304 vertical series under standardisation request M/606\", 2026-09-01. https://cvdportal.com/research/cra-standards-progress (CC BY 4.0)",
+  "methodology": {
+    "kind": "Curated compilation of public primary sources. Not a measurement study.",
+    "sources": [
+      {
+        "label": "ETSI Work Programme work item detail reports",
+        "url": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=",
+        "use": "Version, cover date, work item reference, approval status and the Official Journal field. Read one work item per deliverable, because the work item ids are not sequential by deliverable number."
+      },
+      {
+        "label": "ETSI publication directory for the 304 600 to 304 699 block",
+        "url": "https://www.etsi.org/deliver/etsi_en/304600_304699/",
+        "use": "The permanent version-addressed PDF for each deliverable. A deliverable absent from this directory has no public draft."
+      },
+      {
+        "label": "ETSI CYBER-EUSR open consultation area",
+        "url": "https://docbox.etsi.org/CYBER/EUSR/Open/",
+        "use": "The consultation copy of each draft. Paths here move as drafts progress, which is why the publication directory is the citable link."
+      },
+      {
+        "label": "ETSI press release, 13 August 2026",
+        "url": "https://www.etsi.org/newsroom/press-releases/etsi-launches-approval-process-for-17-european-standards-supporting-the-cyber-resilience-act/",
+        "use": "The announcement that 17 final drafts entered Public Enquiry, and the mid-September to mid-November 2026 closing window."
+      },
+      {
+        "label": "CRA Standards Unlocked, the CEN, CENELEC and ETSI joint programme",
+        "url": "https://www.stan4cra.eu/",
+        "use": "Which committee holds each Annex III and Annex IV point outside the ETSI series."
+      },
+      {
+        "label": "Regulation (EU) 2024/2847",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R2847#art_27",
+        "use": "Article 27 attaches presumption of conformity to a reference published in the Official Journal, which is the field this dataset records per deliverable."
+      }
+    ],
+    "resolutionNote": "Two ETSI surfaces describe the same batch at different resolutions and both are correct. The press release states that 17 final drafts are under Public Enquiry. The work programme records a finer per-deliverable status. This dataset carries the per-deliverable status, because a reader checking one product needs the row rather than the aggregate.",
+    "harmonisedStandardFlagNote": "Every one of these ETSI work items carries a field labelled Harmonised Standard reading Yes. That field marks a candidate for harmonisation under M/606 and is not a citation. The separate Official Journal field is what records a citation, and it was empty on all 18 deliverables when checked.",
+    "copyrightNote": "This dataset carries metadata about the standards and reproduces no clause text. The standards are ETSI copyright. The CC BY 4.0 licence covers this compilation and its annotations.",
+    "limitations": [
+      "A stage reflects what a public source showed on the verification date. A deliverable may be further along inside ETSI than any public source can show.",
+      "A deliverable with no publicly downloadable draft is recorded as a work item with no version, rather than given an inferred stage.",
+      "Work item status strings are ETSI's own workflow vocabulary and are reproduced rather than paraphrased."
+    ]
+  },
+  "summary": {
+    "deliverables": 18,
+    "withPublishedDraft": 17,
+    "inApprovalProcedure": 10,
+    "citedInOfficialJournal": 0,
+    "conferringPresumptionOfConformity": 0,
+    "byStage": {
+      "approval-procedure": 10,
+      "enquiry-draft": 2,
+      "final-draft": 5,
+      "work-item": 1
+    },
+    "annexPointsOutsideEtsi": 9,
+    "approvalProcedureCloses": "Between mid-September and mid-November 2026, depending on the vertical"
+  },
+  "deliverables": [
+    {
+      "code": "EN 304 617",
+      "productType": "Browsers",
+      "title": "Cybersecurity requirements for standalone and embedded browsers",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 17,
+      "annexRef": "Annex III, Class I, point 2",
+      "annexCategory": "Standalone and embedded browsers",
+      "stage": "approval-procedure",
+      "stageLabel": "Approval procedure initiated",
+      "version": "V1.0.0",
+      "versionDate": "2026-08-13",
+      "workProgrammeStatus": "Deliverable approval procedure initiated",
+      "approvalInitiated": "2026-08-13",
+      "workItemRef": "DEN/CYBER-EUS-006",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74408",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304617/01.00.00_20/en_304617v010000ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-617",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-617_V1.0.0_2026-08-12_Browsers_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": null
+    },
+    {
+      "code": "EN 304 618",
+      "productType": "Password managers",
+      "title": "Cybersecurity requirements for password managers",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 18,
+      "annexRef": "Annex III, Class I, point 3",
+      "annexCategory": "Password managers",
+      "stage": "enquiry-draft",
+      "stageLabel": "Enquiry draft",
+      "version": "V0.2.2",
+      "versionDate": "2026-06-22",
+      "workProgrammeStatus": "EC assessment before EV received",
+      "approvalInitiated": null,
+      "workItemRef": "DEN/CYBER-EUS-007",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74410",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304618/00.02.02_20/en_304618v000202ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-618",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-618_V0.2.2_2026-06-22_Password-managers_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": null
+    },
+    {
+      "code": "EN 304 619",
+      "productType": "Anti-malware software",
+      "title": "Cybersecurity requirements for software that searches for, removes or quarantines malicious software",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 19,
+      "annexRef": "Annex III, Class I, point 4",
+      "annexCategory": "Software that searches for, removes, or quarantines malicious software",
+      "stage": "approval-procedure",
+      "stageLabel": "Approval procedure initiated",
+      "version": "V1.0.0",
+      "versionDate": "2026-07-20",
+      "workProgrammeStatus": "Deliverable approval procedure initiated",
+      "approvalInitiated": "2026-07-20",
+      "workItemRef": "DEN/CYBER-EUS-0018",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74411",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304619/01.00.00_20/en_304619v010000ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-619",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-619_V1.0.0_2026-07-15_Antivirus-Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": null
+    },
+    {
+      "code": "EN 304 620",
+      "productType": "VPN products",
+      "title": "Cybersecurity requirements for products with digital elements with the function of virtual private network (VPN)",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 20,
+      "annexRef": "Annex III, Class I, point 5",
+      "annexCategory": "Products with digital elements with the function of virtual private network (VPN)",
+      "stage": "approval-procedure",
+      "stageLabel": "Approval procedure initiated",
+      "version": "V1.0.0",
+      "versionDate": "2026-08-13",
+      "workProgrammeStatus": "Deliverable approval procedure initiated",
+      "approvalInitiated": "2026-08-13",
+      "workItemRef": "DEN/CYBER-EUS-005",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74409",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304620/01.00.00_20/en_304620v010000ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-620",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-620_v1.0.0_2026-08-12_Virtual-Private-Networks_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": {
+        "code": "prEN 50770-4",
+        "body": "CENELEC CLC/TC 65X WG 3",
+        "track": "ot",
+        "stage": "Drafting"
+      }
+    },
+    {
+      "code": "EN 304 621",
+      "productType": "Network management systems",
+      "title": "Cybersecurity requirements for network management systems",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 21,
+      "annexRef": "Annex III, Class I, point 6",
+      "annexCategory": "Network management systems",
+      "stage": "approval-procedure",
+      "stageLabel": "Approval procedure initiated",
+      "version": "V1.0.5",
+      "versionDate": "2026-08-13",
+      "workProgrammeStatus": "Deliverable approval procedure initiated",
+      "approvalInitiated": "2026-08-13",
+      "workItemRef": "DEN/CYBER-EUS-009",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74412",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304621/01.00.05_20/en_304621v010005ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-621",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-621_V1.0.5_2026-08-12_Network-Management-Systems_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": {
+        "code": "prEN 50770-2",
+        "body": "CENELEC CLC/TC 65X WG 3",
+        "track": "ot",
+        "stage": "Drafting"
+      }
+    },
+    {
+      "code": "EN 304 622",
+      "productType": "SIEM systems",
+      "title": "Cybersecurity requirements for security information and event management (SIEM) systems",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 22,
+      "annexRef": "Annex III, Class I, point 7",
+      "annexCategory": "Security information and event management (SIEM) systems",
+      "stage": "approval-procedure",
+      "stageLabel": "Approval procedure initiated",
+      "version": "V1.0.0",
+      "versionDate": "2026-08-13",
+      "workProgrammeStatus": "Deliverable approval procedure initiated",
+      "approvalInitiated": "2026-08-13",
+      "workItemRef": "DEN/CYBER-EUS-0010",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74413",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304622/01.00.00_20/en_304622v010000ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-622",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-622_V1.0.0_2026-08-12_Security-Information-Event-Management_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": {
+        "code": "prEN 50770-6",
+        "body": "CENELEC CLC/TC 65X WG 3",
+        "track": "ot",
+        "stage": "Drafting"
+      }
+    },
+    {
+      "code": "EN 304 623",
+      "productType": "Boot managers",
+      "title": "Cybersecurity requirements for boot managers",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 23,
+      "annexRef": "Annex III, Class I, point 8",
+      "annexCategory": "Boot managers",
+      "stage": "enquiry-draft",
+      "stageLabel": "Enquiry draft",
+      "version": "V0.1.3",
+      "versionDate": "2026-06-17",
+      "workProgrammeStatus": "EC assessment before EV received",
+      "approvalInitiated": null,
+      "workItemRef": "DEN/CYBER-EUS-008",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74414",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-623",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-623_V0.1.3_2026-06-17_Boot_Managers_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": null
+    },
+    {
+      "code": "EN 304 624",
+      "productType": "PKI and certificate issuance",
+      "title": "Cybersecurity requirements for public key infrastructure and digital certificate issuance software",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 24,
+      "annexRef": "Annex III, Class I, point 9",
+      "annexCategory": "Public key infrastructure and digital certificate issuance software",
+      "stage": "final-draft",
+      "stageLabel": "Final draft",
+      "version": "V1.0.0",
+      "versionDate": "2026-08-06",
+      "workProgrammeStatus": "EC assessment before EV requested",
+      "approvalInitiated": null,
+      "workItemRef": "DEN/CYBER-EUS-0015",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74837",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304624/01.00.00_20/en_304624v010000ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-624",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-624_V1.0.0_2026-08-05_PKI_certificate_issuance_software_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": null
+    },
+    {
+      "code": "EN 304 625",
+      "productType": "Network interfaces",
+      "title": "Cybersecurity requirements for physical and virtual network interfaces",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 25,
+      "annexRef": "Annex III, Class I, point 10",
+      "annexCategory": "Physical and virtual network interfaces",
+      "stage": "approval-procedure",
+      "stageLabel": "Approval procedure initiated",
+      "version": "V1.0.0",
+      "versionDate": "2026-08-10",
+      "workProgrammeStatus": "Deliverable approval procedure initiated",
+      "approvalInitiated": "2026-08-10",
+      "workItemRef": "DEN/CYBER-EUS-0017",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74860",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304625/01.00.00_20/en_304625v010000ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-625",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-625_V1.0.0_2026-08-10_Network-Interfaces_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": {
+        "code": "prEN 50770-3",
+        "body": "CENELEC CLC/TC 65X WG 3",
+        "track": "ot",
+        "stage": "Drafting"
+      }
+    },
+    {
+      "code": "EN 304 626",
+      "productType": "Operating systems",
+      "title": "Cybersecurity requirements for operating systems",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 26,
+      "annexRef": "Annex III, Class I, point 11",
+      "annexCategory": "Operating systems",
+      "stage": "approval-procedure",
+      "stageLabel": "Approval procedure initiated",
+      "version": "V1.0.1",
+      "versionDate": "2026-08-13",
+      "workProgrammeStatus": "Deliverable approval procedure initiated",
+      "approvalInitiated": "2026-08-13",
+      "workItemRef": "DEN/CYBER-EUS-0012",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74415",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304626/01.00.01_20/en_304626v010001ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-626",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-626_V1.0.1_2026-08-12_Operating-Systems_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": null
+    },
+    {
+      "code": "EN 304 627",
+      "productType": "Routers, modems and switches",
+      "title": "Cybersecurity requirements for routers, modems intended for the connection to the internet and switches",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 27,
+      "annexRef": "Annex III, Class I, point 12",
+      "annexCategory": "Routers, modems intended for the connection to the internet, and switches",
+      "stage": "final-draft",
+      "stageLabel": "Final draft",
+      "version": "V1.0.1",
+      "versionDate": "2026-07-09",
+      "workProgrammeStatus": "EC assessment before EV received",
+      "approvalInitiated": null,
+      "workItemRef": "DEN/CYBER-EUS-0013",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74416",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304627/01.00.01_20/en_304627v010001ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-627",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-627_V1.0.1_2026-07-06_Routers-modems-switches_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": {
+        "code": "prEN 50770-5",
+        "body": "CENELEC CLC/TC 65X WG 3",
+        "track": "ot",
+        "stage": "Drafting"
+      }
+    },
+    {
+      "code": "EN 304 631",
+      "productType": "Smart home virtual assistants",
+      "title": "Cybersecurity requirements for smart home general purpose virtual assistants",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 31,
+      "annexRef": "Annex III, Class I, point 16",
+      "annexCategory": "Smart home general purpose virtual assistants",
+      "stage": "approval-procedure",
+      "stageLabel": "Approval procedure initiated",
+      "version": "V1.0.0",
+      "versionDate": "2026-07-20",
+      "workProgrammeStatus": "Deliverable approval procedure initiated",
+      "approvalInitiated": "2026-07-20",
+      "workItemRef": "DEN/CYBER-EUS-0011",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74420",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304631/01.00.00_20/en_304631v010000ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-631",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-631_V1.0.0_2026-07-20_Smart-home-virtual-assistants_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": null
+    },
+    {
+      "code": "EN 304 632",
+      "productType": "Smart home security products",
+      "title": "Cybersecurity requirements for smart home products with security functionalities, including smart door locks, security cameras, baby monitoring systems and alarm systems",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 32,
+      "annexRef": "Annex III, Class I, point 17",
+      "annexCategory": "Smart home products with security functionalities, including smart door locks, security cameras, baby monitoring systems and alarm systems",
+      "stage": "approval-procedure",
+      "stageLabel": "Approval procedure initiated",
+      "version": "V1.0.0",
+      "versionDate": "2026-07-20",
+      "workProgrammeStatus": "Deliverable approval procedure initiated",
+      "approvalInitiated": "2026-07-20",
+      "workItemRef": "DEN/CYBER-EUS-0014",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74417",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304632/01.00.00_20/en_304632v010000ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-632",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-632_V1.0.0_2026-07-20_Smart-home-security-products_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": null
+    },
+    {
+      "code": "EN 304 633",
+      "productType": "Internet-connected toys",
+      "title": "Cybersecurity requirements for internet connected toys",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 33,
+      "annexRef": "Annex III, Class I, point 18",
+      "annexCategory": "Internet connected toys covered by Directive 2009/48/EC that have social interactive features (e.g. speaking or filming) or that have location tracking features",
+      "stage": "approval-procedure",
+      "stageLabel": "Approval procedure initiated",
+      "version": "V1.0.0",
+      "versionDate": "2026-07-20",
+      "workProgrammeStatus": "Deliverable approval procedure initiated",
+      "approvalInitiated": "2026-07-20",
+      "workItemRef": "DEN/CYBER-EUS-004",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74418",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304633/01.00.00_20/en_304633v010000ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-633",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-633_V1.0.0_2026-07-20_Internet-connected-toys_Enquiry-Draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": null
+    },
+    {
+      "code": "EN 304 634",
+      "productType": "Personal wearables",
+      "title": "Cybersecurity requirements for personal wearable products",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 34,
+      "annexRef": "Annex III, Class I, point 19",
+      "annexCategory": "Personal wearable products worn or placed on a human body with a health monitoring purpose (outside Regulation (EU) 2017/745 or 2017/746), or personal wearable products intended for use by and for children",
+      "stage": "final-draft",
+      "stageLabel": "Final draft",
+      "version": "V1.0.0",
+      "versionDate": "2026-07-23",
+      "workProgrammeStatus": "EC assessment before EV requested",
+      "approvalInitiated": null,
+      "workItemRef": "DEN/CYBER-EUS-003",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74419",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304634/01.00.00_20/en_304634v010000ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-634",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-634_V1.0.0_2026-07-24_Personal-wearables_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": null
+    },
+    {
+      "code": "EN 304 635",
+      "productType": "Hypervisors and container runtimes",
+      "title": "Cybersecurity requirements for hypervisors and container runtime systems that support virtualised execution of operating systems and similar environments",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 35,
+      "annexRef": "Annex III, Class II, point 1",
+      "annexCategory": "Hypervisors and container runtime systems that support virtualised execution of operating systems and similar environments",
+      "stage": "final-draft",
+      "stageLabel": "Final draft",
+      "version": "V1.0.1",
+      "versionDate": "2026-06-25",
+      "workProgrammeStatus": "EC assessment before EV received",
+      "approvalInitiated": null,
+      "workItemRef": "DEN/CYBER-EUS-0016",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74858",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304635/01.00.01_20/en_304635v010001ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-635",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-635_V1.0.1_2026-06-24_Virtualization_Container_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": null
+    },
+    {
+      "code": "EN 304 636",
+      "productType": "Firewalls and IDS/IPS",
+      "title": "Cybersecurity requirements for firewalls, intrusion detection and/or prevention systems",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": 36,
+      "annexRef": "Annex III, Class II, point 2",
+      "annexCategory": "Firewalls, intrusion detection and prevention systems",
+      "stage": "final-draft",
+      "stageLabel": "Final draft",
+      "version": "V1.0.0",
+      "versionDate": "2026-07-13",
+      "workProgrammeStatus": "EC assessment before EV received",
+      "approvalInitiated": null,
+      "workItemRef": "DEN/CYBER-EUS-0020",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74859",
+      "publishedPdfUrl": "https://www.etsi.org/deliver/etsi_en/304600_304699/304636/01.00.00_20/en_304636v010000ev.pdf",
+      "draftSourceUrl": "https://forge.etsi.org/rep/cyber/stan4cr2/en-304-636",
+      "consultationDraftUrl": "https://docbox.etsi.org/CYBER/EUSR/Open/EN_304-636_V1.0.0_2026-07-09_Firewalls_Enquiry-draft.pdf",
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": {
+        "code": "prEN 50770-1",
+        "body": "CENELEC CLC/TC 65X WG 3",
+        "track": "ot",
+        "stage": "Drafting"
+      }
+    },
+    {
+      "code": "EN 304 642",
+      "productType": "Telecom network functions",
+      "title": "Cybersecurity requirements for network functions of telecommunications systems",
+      "body": "ETSI TC CYBER, CYBER EUSR working group",
+      "mandateItem": null,
+      "annexRef": null,
+      "annexCategory": null,
+      "stage": "work-item",
+      "stageLabel": "Work item, no public draft",
+      "version": null,
+      "versionDate": null,
+      "workProgrammeStatus": "Early draft",
+      "approvalInitiated": null,
+      "workItemRef": "DEN/CYBER-EUS-0019",
+      "workItemUrl": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=74965",
+      "publishedPdfUrl": null,
+      "draftSourceUrl": null,
+      "consultationDraftUrl": null,
+      "officialJournalCitedAt": null,
+      "confersPresumptionOfConformity": false,
+      "parallelStandard": null
+    }
+  ],
+  "annexPointsOutsideEtsi": [
+    {
+      "annexRef": "Annex III, Class I, point 1",
+      "annexCategory": "Identity management systems and privileged access management software and hardware, including authentication and access control readers, including biometric readers",
+      "etsiDeliverable": null,
+      "alternatives": [
+        {
+          "code": "Number not yet allocated",
+          "body": "CEN/TC 224 WG 17",
+          "track": "identity",
+          "stage": "Drafting",
+          "note": "Identity management and privileged access management is drafted by the cards and security devices committee, not ETSI."
+        }
+      ]
+    },
+    {
+      "annexRef": "Annex III, Class I, point 13",
+      "annexCategory": "Microprocessors with security-related functionalities",
+      "etsiDeliverable": null,
+      "alternatives": [
+        {
+          "code": "prEN 50765",
+          "body": "CENELEC CLC/TC 47X",
+          "track": "semiconductor",
+          "stage": "Public enquiry",
+          "note": "Microprocessors with security-related functionalities are covered by the semiconductor committee."
+        }
+      ]
+    },
+    {
+      "annexRef": "Annex III, Class I, point 14",
+      "annexCategory": "Microcontrollers with security-related functionalities",
+      "etsiDeliverable": null,
+      "alternatives": [
+        {
+          "code": "prEN 50765",
+          "body": "CENELEC CLC/TC 47X",
+          "track": "semiconductor",
+          "stage": "Public enquiry",
+          "note": "Microcontrollers with security-related functionalities share the deliverable with microprocessors."
+        }
+      ]
+    },
+    {
+      "annexRef": "Annex III, Class I, point 15",
+      "annexCategory": "Application specific integrated circuits (ASIC) and field-programmable gate arrays (FPGA) with security-related functionalities",
+      "etsiDeliverable": null,
+      "alternatives": [
+        {
+          "code": "prEN 50765",
+          "body": "CENELEC CLC/TC 47X",
+          "track": "semiconductor",
+          "stage": "Public enquiry",
+          "note": "ASICs and FPGAs with security-related functionalities sit in the same semiconductor programme."
+        }
+      ]
+    },
+    {
+      "annexRef": "Annex III, Class II, point 3",
+      "annexCategory": "Tamper-resistant microprocessors",
+      "etsiDeliverable": null,
+      "alternatives": [
+        {
+          "code": "prEN 50766",
+          "body": "CENELEC CLC/TC 47X",
+          "track": "semiconductor",
+          "stage": "Public enquiry",
+          "note": "Tamper-resistant microprocessors have their own deliverable, separate from the general semiconductor one."
+        }
+      ]
+    },
+    {
+      "annexRef": "Annex III, Class II, point 4",
+      "annexCategory": "Tamper-resistant microcontrollers",
+      "etsiDeliverable": null,
+      "alternatives": [
+        {
+          "code": "prEN 50766",
+          "body": "CENELEC CLC/TC 47X",
+          "track": "semiconductor",
+          "stage": "Public enquiry",
+          "note": "Tamper-resistant microcontrollers share the deliverable with tamper-resistant microprocessors."
+        }
+      ]
+    },
+    {
+      "annexRef": "Annex IV, point 1",
+      "annexCategory": "Hardware Devices with Security Boxes",
+      "etsiDeliverable": null,
+      "alternatives": [
+        {
+          "code": "Number not yet allocated",
+          "body": "CEN/TC 224 WG 17",
+          "track": "smartcard",
+          "stage": "Drafting",
+          "note": "Hardware devices with security boxes are a critical product under Annex IV and are drafted by the cards and security devices committee."
+        }
+      ]
+    },
+    {
+      "annexRef": "Annex IV, point 2",
+      "annexCategory": "Smart meter gateways within smart metering systems as defined in Article 2, point (23) of Directive (EU) 2019/944 and other devices for advanced security purposes, including for secure cryptoprocessing",
+      "etsiDeliverable": null,
+      "alternatives": [
+        {
+          "code": "Number not yet allocated",
+          "body": "CEN-CLC/JTC 13 WG 6",
+          "track": "metering",
+          "stage": "Drafting",
+          "note": "Smart meter gateways are a critical product under Annex IV and sit with the horizontal cybersecurity committee's metering group."
+        }
+      ]
+    },
+    {
+      "annexRef": "Annex IV, point 3",
+      "annexCategory": "Smartcards or similar devices, including secure elements",
+      "etsiDeliverable": null,
+      "alternatives": [
+        {
+          "code": "prEN 50764",
+          "body": "CENELEC CLC/TC 47X",
+          "track": "smartcard",
+          "stage": "Public enquiry",
+          "note": "Platforms of smartcards and similar devices including secure elements are a critical product under Annex IV."
+        },
+        {
+          "code": "prEN 18330",
+          "body": "CEN/TC 224 WG 17",
+          "track": "smartcard",
+          "stage": "Public enquiry",
+          "note": "Covers the application layer for smartcards and similar devices, alongside the platform deliverable."
+        }
+      ]
+    }
+  ]
+}
